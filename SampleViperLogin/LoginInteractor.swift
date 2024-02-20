@@ -8,6 +8,17 @@
 
 import UIKit
 
-class LoginInteractor: NSObject {
+protocol LoginRequestHandler:class
+{
+    func handleLoginRequest(_ userName: String,_ password: String)
+}
 
+class LoginInteractor: LoginRequestHandler {
+    
+    weak var presenter : LoginResponseHandler?
+
+    func handleLoginRequest(_ userName: String, _ password: String) {
+        
+        presenter?.requestLoginDidFinish()
+    }
 }

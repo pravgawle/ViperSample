@@ -8,6 +8,18 @@
 
 import UIKit
 
-class LoginWireframe: NSObject {
+// MARK: - Protocol to be defined at Wireframe
+protocol LoginNavigationHandler:class
+{
+    func goToHomeScreen()
+}
+
+class LoginWireframe: LoginNavigationHandler {
+    
+    weak var viewController : LoginVC?
+
+    func goToHomeScreen() {
+        print("Push to Home screen")
+    }
 
 }

@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		84D7A758230C6F8C009CF26B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A757230C6F8C009CF26B /* AppDelegate.swift */; };
-		84D7A75A230C6F8C009CF26B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A759230C6F8C009CF26B /* ViewController.swift */; };
 		84D7A75D230C6F8C009CF26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D7A75B230C6F8C009CF26B /* Main.storyboard */; };
 		84D7A760230C6F8C009CF26B /* SampleViperLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A75E230C6F8C009CF26B /* SampleViperLogin.xcdatamodeld */; };
 		84D7A762230C6F8F009CF26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D7A761230C6F8F009CF26B /* Assets.xcassets */; };
 		84D7A765230C6F8F009CF26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D7A763230C6F8F009CF26B /* LaunchScreen.storyboard */; };
 		84D7A770230C6F8F009CF26B /* SampleViperLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A76F230C6F8F009CF26B /* SampleViperLoginTests.swift */; };
 		84D7A77B230C6F8F009CF26B /* SampleViperLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A77A230C6F8F009CF26B /* SampleViperLoginUITests.swift */; };
+		84D7A789230C6FC1009CF26B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A788230C6FC1009CF26B /* LoginVC.swift */; };
+		84D7A78B230C7068009CF26B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A78A230C7068009CF26B /* LoginPresenter.swift */; };
+		84D7A78D230C7079009CF26B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A78C230C7079009CF26B /* LoginInteractor.swift */; };
+		84D7A78F230C7087009CF26B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A78E230C7087009CF26B /* LoginViewModel.swift */; };
+		84D7A791230C7094009CF26B /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A790230C7094009CF26B /* LoginWireframe.swift */; };
+		84D7A795230C7245009CF26B /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A794230C7245009CF26B /* LoginBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		84D7A754230C6F8C009CF26B /* SampleViperLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleViperLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7A757230C6F8C009CF26B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84D7A759230C6F8C009CF26B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84D7A75C230C6F8C009CF26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D7A75F230C6F8C009CF26B /* SampleViperLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleViperLogin.xcdatamodel; sourceTree = "<group>"; };
 		84D7A761230C6F8F009CF26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		84D7A776230C6F8F009CF26B /* SampleViperLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleViperLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7A77A230C6F8F009CF26B /* SampleViperLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViperLoginUITests.swift; sourceTree = "<group>"; };
 		84D7A77C230C6F8F009CF26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D7A788230C6FC1009CF26B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		84D7A78A230C7068009CF26B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		84D7A78C230C7079009CF26B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		84D7A78E230C7087009CF26B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		84D7A790230C7094009CF26B /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		84D7A794230C7245009CF26B /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				84D7A757230C6F8C009CF26B /* AppDelegate.swift */,
-				84D7A759230C6F8C009CF26B /* ViewController.swift */,
+				84D7A788230C6FC1009CF26B /* LoginVC.swift */,
+				84D7A790230C7094009CF26B /* LoginWireframe.swift */,
+				84D7A78A230C7068009CF26B /* LoginPresenter.swift */,
+				84D7A78C230C7079009CF26B /* LoginInteractor.swift */,
+				84D7A794230C7245009CF26B /* LoginBuilder.swift */,
+				84D7A78E230C7087009CF26B /* LoginViewModel.swift */,
 				84D7A75B230C6F8C009CF26B /* Main.storyboard */,
 				84D7A761230C6F8F009CF26B /* Assets.xcassets */,
 				84D7A763230C6F8F009CF26B /* LaunchScreen.storyboard */,
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D7A75A230C6F8C009CF26B /* ViewController.swift in Sources */,
 				84D7A758230C6F8C009CF26B /* AppDelegate.swift in Sources */,
+				84D7A791230C7094009CF26B /* LoginWireframe.swift in Sources */,
+				84D7A78D230C7079009CF26B /* LoginInteractor.swift in Sources */,
+				84D7A789230C6FC1009CF26B /* LoginVC.swift in Sources */,
 				84D7A760230C6F8C009CF26B /* SampleViperLogin.xcdatamodeld in Sources */,
+				84D7A795230C7245009CF26B /* LoginBuilder.swift in Sources */,
+				84D7A78B230C7068009CF26B /* LoginPresenter.swift in Sources */,
+				84D7A78F230C7087009CF26B /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
